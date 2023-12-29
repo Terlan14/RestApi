@@ -7,8 +7,6 @@ import javax.persistence.Table;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
-@Entity
-@Table(name="aliens")
 public class Alien 
 {
 	@Id
